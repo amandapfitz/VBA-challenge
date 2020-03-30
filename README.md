@@ -1,16 +1,12 @@
 # VBA-challenge
 
-Stock market analyst
+Stock market data in csv format was analyzed. The code I created runs across every worksheet just by running the code once.
 
-Create a script that will loop through all the stocks for one year for each run and take the following information:
+Created a VBA script that loops through all the stocks for one year for each run and generates a summarizing table with the following information:
 The ticker symbol.
 Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 The total stock volume of the stock.
-
-
-You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % Decrease" and "Greatest total volume". The solution will look as follows:
-
-Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+Greatest % Increase.
+Greatest % Decrease.
+Greatest Total Volume.
